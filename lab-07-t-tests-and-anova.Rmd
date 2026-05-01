@@ -15,6 +15,8 @@ editor_options:
   chunk_output_type: inline
 ---
 
+GRADE GM: 9.75/10 - Very good submission! Clear code, thoughtful variable choice with climate context, solid interpretations, and a clean reflection. Minor deductions for a couple brief spots and small phrasing issues. Strong understanding overall.
+
 ```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(lubridate)
@@ -117,6 +119,8 @@ mean(x, na.rm = TRUE); sd(x, na.rm = TRUE); length(x)
 > What variable and day did you choose, and why?
 
 > I chose the variable `swc`, soil water content because it carries important implications about precipitation and climate changes as soil dries out with warming. I chose 200 samples to get an ample amount of data.
+
+> GM: Excellent — Great choice of `swc` with relevant climate/precipitation justification.
 
 ---
 
@@ -264,6 +268,8 @@ tibble(
 > What does the sign of `mean_diff` mean? What does the p-value mean?
 
 > The sign of `mean-diff`, in this case being positive, means that the mean of the second group, around day 100, is higher than that of the mean from day 50. The p-value being very small and much smaller than 0.05 means that we will reject the null hypothesis because the mean soil water content from these two days is not 21%.
+
+> GM: -0.25: Minor — The p-value interpretation has a small mix-up (it tests difference between the two groups, not from 21%). Otherwise solid.
 
 ---
 
@@ -489,6 +495,8 @@ Answer in **5–7 sentences**:
 - What stayed the same across all these tests?
 
 > A one-sample t-test is different from a two-sample one because the former compares the means to a known value, while the latter compares the means of two independent groups. A paired t-test is then special since it is comparing two dependent sets of observations rather than independent ones. ANOVA is a generalization of the t-test since it allows the comparison of more than two groups. In this case, three groups were compared. Something that stayed the same across all of the tests used was how each of them was being used to compare differences and variability in mean values. 
+
+> GM: Excellent — Clear, concise, and hits all the main points well.
 
 ---
 
